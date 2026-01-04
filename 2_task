@@ -1,0 +1,12 @@
+#varibales to store and display detaildate 2.1shahil makwana
+name=input("enter collage name")
+branch=input("branch name")
+
+semster=input("enter semster")
+
+hobbies=input("enter hobbies")
+
+print("name is",name)
+print(" branch name is",branch)
+print("semster is",semster)
+print("hobbies is",hobbies)
