@@ -1,0 +1,10 @@
+#varibales to store and display detaildate 2.1shahil makwana
+name="makwana shahil"
+adres="ratanpar"
+city="bhavangar"
+pincode=364330
+age=19
+weight="56 kg"
+gender="male"
+print("name is",name,"adres is",adres,"city is",city,"pincode is",pincode,"age is ",age,"wight is",weight,"gender is",gender)
+
