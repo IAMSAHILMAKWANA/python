@@ -1,0 +1,25 @@
+cars = ["bmw", "audi", "bmw", "tata", "honda", "audi", "kia", "bmw", "toyota", "tata"]
+print(cars)
+
+# find out how many bmw
+print(cars.count("bmw"))
+
+# find out how many audi
+print(cars.count("audi"))
+
+# count of car not in list
+print(cars.count("tesla"))
+
+# position of tata
+print(cars.index("tata"))
+
+# position of toyota
+print(cars.index("toyota"))
+# print(cars.index("tesla"))  # error, because item not found
+
+# mirror copy vs perfect copy
+cars2 = cars.copy()   # perfect way
+print(cars, cars2)
+
+cars2.clear()
+print(cars, cars2)
