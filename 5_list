@@ -1,0 +1,60 @@
+# list means array
+# create list to store many cartoons and movies names
+
+entertainment = [
+    "Tom and Jerry",
+    "Doraemon",
+    "Shinchan",
+    "Avengers",
+    "Spider-Man",
+    "Lion King",
+    "Chhota Bheem",
+    "Frozen",
+    "Batman"
+]
+
+print(entertainment)
+
+# list is mutable (we can add, delete, modify, access any part of list)
+
+# add new item at 0th position
+entertainment.insert(0, "Pokemon")
+
+# add new item at 1st position
+entertainment.insert(1, "Naruto")
+
+# add item at last position
+entertainment.append("Harry Potter")
+
+print("Now entertainment list is:", entertainment)
+
+# how to update item
+entertainment[0] = "Dragon Ball Z"
+print(entertainment)
+
+# how to delete item
+# delete 1st item
+del entertainment[1]
+print(entertainment)
+
+# delete by value
+entertainment.remove("Tom and Jerry")
+entertainment.remove("Shinchan")
+print(entertainment)
+
+# remove item by index
+entertainment.pop(2)
+print(entertainment)
+
+# print 0th item
+print(entertainment[0])
+
+# print first 3 items
+print(entertainment[0:3])
+
+# print all items from 4th position
+print(entertainment[4:])
+
+# delete whole list
+del entertainment
+# print(entertainment)  # this will give error because list is deleted
