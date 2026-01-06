@@ -1,0 +1,10 @@
+person= {'name':'rahul','age':40,'weight':74.22,'gender':True,'ismarried':False}
+print(person)
+print(person['name'])
+person['name']="jethalal"
+
+person['city']='delhi'
+person['pincode']=123456
+
+del person['ismarried']
+print(person)
