@@ -1,0 +1,12 @@
+nation=( "india","us","china","rus","germany","france","japan","brazil","uk","india","sri lanka","india")
+box = (100,True,1.25,'bhavnagr',None)
+
+print(nation)
+print(box)
+print(nation+box)
+print(nation[0])
+print(box[0])
+print("index of us is",nation.index("us"))
+print("count of india is",nation.count("india"))
+print(nation*2)
+print("god byy")
