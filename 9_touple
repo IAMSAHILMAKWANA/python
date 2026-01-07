@@ -1,0 +1,17 @@
+person ={'name':'rahul','age':40,'weight':74.22,'gender':True,'ismarried':False}
+print(person)
+print(person['name'])#rahul
+print(person.get('age'))#40
+#print(person('city'))#error
+person2= person.copy()
+print(person.keys())
+print(person.values())
+print(person.items())
+bok =["name","price","pages","author","isbno"]
+book=dict.fromkeys(bok)
+print(book)
+book['name']="black clover"
+book['pages']=32
+book.pop('isbno')
+book.pop('king',False)
+print(book)
