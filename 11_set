@@ -1,0 +1,6 @@
+fal = {apple","bana","mango","orange","grapes","pineapple"}
+print(fal)
+fal.add("apple")
+fal.remove("mango")
+fal.add("kiwi")
+print(fal)
