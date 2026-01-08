@@ -1,0 +1,19 @@
+# three digit number into word
+number =input("enter number")
+print(number)
+#conert in to interger number for progrm
+number=int(number)
+
+last=number%10#give the last digit of number
+print(last)
+
+middel =(number//10)%10
+print(middel)
+
+first=number//100#it give the first number
+print(first)
+
+words=["zero hundred","one hundred","two hundred","three hundred ","four hundred","five hundred","six hundred","seven hundred","eight hundred","nine hundred",]
+words1=["zero ","eleven","twenty","threety","fourty","fivety","sixty","seventy","eightty","ninty"]
+words2=["zero","one","two","three","four","five","six","seven","eight","nine",]
+print(words[first]," ",words1[middel]," ",words2[last])
