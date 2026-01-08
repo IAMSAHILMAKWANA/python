@@ -1,0 +1,11 @@
+# two digit number into word
+number =input("enter number")
+print(number)
+#conert in to interger number for progrm
+number=int(number)
+last=number%10#give the last digit of number
+print(last)
+first=number//10#it give the first number
+print(first)
+words=["zero","one","two","three","four","five","six","seven","eight","nine",]
+print(words[first]," ",words[last])
