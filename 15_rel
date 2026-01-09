@@ -1,0 +1,22 @@
+# relecation between two number
+
+num=int(input("enter number"))
+num2=int(input("enter number"))
+
+res= num==num2
+print(f"{res}= {num} == {num2}")
+
+res= num<=num2
+print(f"{res}= {num} <= {num2}")
+
+res= num>=num2
+print(f"{res}= {num} >= {num2}")
+
+res= num<num2
+print(f"{res}= {num} < {num2}")
+
+res= num>num2
+print(f"{res}= {num} > {num2}")
+
+res= num!=num2
+print(f"{res}= {num} != {num2}")
