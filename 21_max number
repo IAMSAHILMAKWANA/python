@@ -1,0 +1,5 @@
+number=[20,39.59,56,95,68]
+#max number
+print("max number is",max(number))
+#min number
+print("minume number is",min(number))
