@@ -1,0 +1,6 @@
+#Given a list of numbers, sort it in ascending and descending order.
+num={1,2,35,4,5,6,75,8,9,10,2,3,4,5,6,7,66,7,66,5,6}
+ass=sorted(num)
+des=sorted(num, reverse=True)
+print(" ascdending order",ass)
+print(" descending order",des)
