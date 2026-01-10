@@ -1,0 +1,2 @@
+name=("sahil",12,"makwana",45,True)
+print("length is",len(name))
