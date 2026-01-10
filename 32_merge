@@ -1,0 +1,11 @@
+#Merge two dictionaries into a single dictionary.
+
+student= {"a":70,"b":45,"c":87,"d":87,"e":43}
+print(student)
+grade ={"f":70,"g":45,"h":87,"i":87,"j":43}
+print(grade)
+
+#merge
+
+student.update(grade)
+print(student)
