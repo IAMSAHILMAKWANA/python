@@ -1,0 +1,4 @@
+#Create a dictionary of 5 students with their marks and find the total marks.
+student= {"a":70,"b":45,"c":87,"d":87,"e":43}
+mark=student.values()
+print(sum(mark))
