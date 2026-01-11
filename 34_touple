@@ -1,0 +1,20 @@
+# The original tuple of numbers
+my_tuple = (10, 20, 30)
+
+# Convert the tuple to a list
+my_list = list(my_tuple)
+
+# Add new elements to the list using different methods
+
+# 1. Append a single element to the end
+my_list.append(40)
+
+# 2. Add multiple elements at once
+my_list.extend([50, 60])
+
+# 3. Insert an element at a specific index (e.g., at index 1)
+my_list.insert(1, 15)
+
+# Print the final list
+print("Original Tuple:", my_tuple)
+print("Converted List with New Elements:", my_list)
