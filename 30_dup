@@ -1,0 +1,4 @@
+with_duplicates = [1, 2, 2, 3, 4, 4,]
+without_duplicates = list(set(list_with_duplicates))
+print(f"Original list: {list_with_duplicates}")
+print(f"List without duplicates: {list_without_duplicates}")
