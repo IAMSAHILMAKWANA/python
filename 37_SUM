@@ -1,0 +1,13 @@
+#Create a dictionary and calculate the average of all values.
+
+scores = {
+    "Math": 85,
+    "Science": 90,
+    "English": 78,
+    "History": 88
+}
+
+
+average = sum(scores.values()) / len(scores)
+
+print("Average of values:", average)
