@@ -1,0 +1,7 @@
+#enter grames into kilogrames 
+
+wei=int(input("enter grames"))
+kilogrames=wei//1000
+grames=wei%1000
+print("kg is =" , kilogrames)
+print("grames ==", grames)
