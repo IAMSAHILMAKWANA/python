@@ -1,0 +1,5 @@
+#enter bytes into kilobites
+
+wei=int(input("enter bytes"))
+kilogrames=wei//1024
+print("kilobites is =" , kilogrames)
