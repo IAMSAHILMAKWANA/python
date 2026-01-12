@@ -1,0 +1,4 @@
+#Write a program to convert kilograms into grams.
+kg=int(input("enter kilograms"))
+gm=kg*1000
+print("grams is",gm)
