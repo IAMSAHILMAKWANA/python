@@ -1,0 +1,6 @@
+#crate a list and find second largest number use sorted
+
+number=[1,2,3,4,5,6,6,6,7,77,8]
+number.sort()
+number=number[-2]
+print(number)
