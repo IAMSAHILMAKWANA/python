@@ -1,0 +1,31 @@
+def calculate_rectangle_area(length, breadth):
+    """
+    Calculates the area of a rectangle.
+
+    Args:
+        length (float or int): The length of the rectangle.
+        breadth (float or int): The breadth (width) of the rectangle.
+
+    Returns:
+        float or int: The area of the rectangle.
+    """
+    area = length * breadth
+    return area
+
+# --- Example Usage ---
+
+# 1. Using hardcoded values
+length_val = 10
+breadth_val = 5
+area_result_hardcoded = calculate_rectangle_area(length_val, breadth_val)
+print(f"The area of the rectangle with length {length_val} and breadth {breadth_val} is: {area_result_hardcoded}")
+
+# 2. Taking user input
+try:
+    user_length = float(input("Enter the length of the rectangle: "))
+    user_breadth = float(input("Enter the breadth of the rectangle: "))
+    area_result_user = calculate_rectangle_area(user_length, user_breadth)
+    print(f"The calculated area is: {area_result_user}")
+except ValueError:
+    print("Invalid input. Please enter numerical values for length and breadth.")
+
