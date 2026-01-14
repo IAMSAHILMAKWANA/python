@@ -1,0 +1,20 @@
+# Function to calculate the area of a triangle
+def calculate_triangle_area(base, height):
+    """
+    Calculates the area of a triangle using the base and height.
+    """
+    area = 0.5 * base * height
+    return area
+
+# --- Main part of the program ---
+
+# Prompt the user for the base and height
+# Use float() to allow for decimal values
+base_input = float(input("Enter the base of the tria43_trianglengle: "))
+height_input = float(input("Enter the height of the triangle: "))
+
+# Calculate the area using the function
+triangle_area = calculate_triangle_area(base_input, height_input)
+
+# Display the result
+print(f"The area of the triangle is: {triangle_area}")
