@@ -1,0 +1,16 @@
+#write a program to convert 24 hours time into 12 hours format time and display it with AM PM message. 
+  #      input : 15 hours 
+  #      output  3 PM 
+  
+time = int(input("Enter time in 24 hours formate"))
+  
+if time<=12:
+   print("am time is",time)
+   
+if time>12 and time <=24:
+   print("pm time is",time-12)
+   
+if time>24:
+   print("invalid")
+   
+   
