@@ -1,0 +1,18 @@
+# write a program to find out which is cheaper product to purchase from 2 product's weight and price. 
+# also display how much cheaper per gram 
+#iamsahilmakwana
+p1 = float(input('enter 1st product price'))
+w1 = float(input('enter 1st product weight'))
+
+p2 = float(input('enter 2nd product price'))
+w2 = float(input('enter 2nd product weight'))
+
+#calculate price per gram 
+pr1_gram = p1 / w1
+pr2_gram = p2 / w2 
+
+if pr1_gram<pr2_gram:
+    print("1st product is cheaper ",(pr2_gram - pr1_gram))
+else:
+    print("2nd product is cheaper ",(pr1_gram - p2_gram))
+
