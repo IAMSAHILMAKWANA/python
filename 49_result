@@ -1,0 +1,43 @@
+'''Write a program that takes a 5 subject marks from user. calculate total and Percentage  and prints the grade using the following conditions:
+
+| Percentage | Grade |
+| ---------- | ----- |
+| 90–100     | A+    |
+| 80–89      | A     |
+| 70–79      | B     |
+| 60–69      | C     |
+| 50–59      | D     |
+| below 50   | Need to improve  |
+----------------------------------------
+'''
+marks1=int(input("enter 1 sub mark  :"))
+marks2=int(input("enter 2 sub mark  :" ))
+marks3=int(input("enter 3 sub mark  :"))
+marks4=int(input("enter 4 sub mark  :"))
+marks5=int(input("enter 5 sub mark  :"))
+
+total=marks1+marks2+marks3+marks4+marks5
+if total<=500:
+  print(total)
+  Percentage=total/5
+  print("Percentage is",Percentage)
+else:
+  print("enter valid marks")
+
+if  Percentage<50:
+  print("need to improve")
+elif Percentage>=50 and Percentage<=59:
+  print("grade is D")
+elif Percentage>=60 and Percentage<=69:
+ print("grade is C")
+elif Percentage>=70 and Percentage<=79:
+ print("grade is B")
+elif Percentage>=80 and Percentage<=89:
+ print("grade is A")
+elif Percentage>=90 and Percentage<=100:
+ print("grade is A+")
+else:
+    print("envalid marks")
+    
+    
+    
