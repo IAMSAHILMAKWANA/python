@@ -1,0 +1,51 @@
+'''write a program to accept birth day and birth month from user as separate input. decide zodiac sign from below table 
+  
+   Aries: March 21–April 19
+    Taurus: April 20–May 20
+    Gemini: May 21–June 21
+    Cancer: June 22–July 22
+    Leo: July 23–August 22
+    Virgo: August 23–September 22
+    Libra: September 23–October 22
+    Scorpio: October 24–November 21
+    Sagittarius: November 22–December 21
+    Capricorn: December 22–January 19
+    Aquarius: January 20–February 18
+    Pisces: February 19–March 20'''
+    
+    
+    
+bd=int(input("enter birth date : "))
+bm=int(input("enter birth month : "))
+if bd>=1 and bd<=31:
+    if (bd>=20 and bm==1) or (bd<=18  and bm==2):
+        print("zodiac is Aquarius ")
+    elif bd>=19 and  bm==2 or bd<=20 and bm==3:
+        print("zod)iac is Pisces ")
+    elif (bd>=21 and   bm==3) or( bd<=19 and bm==4):
+        print("zodiac is Aries ")
+    elif (bd>=20 and   bm==4) or( bd<=20 and bm==5):
+        print("zodiac is Taurus ")
+    elif (bd>=21 and   bm==5) or( bd<=21 and bm==6):
+        print("zodiac is Gemini ")
+    elif (bd>=22 and   bm==6) or( bd<=22 and bm==7):
+        print("zodiac is Cancer ")
+    elif (bd>=23 and   bm==7) or( bd<=22 and bm==8):
+        print("zodiac is Leo ")
+    elif (bd>=23   and bm==8) or( bd<=22 and bm==9):  
+        print("zodiac is Virgo ")
+    elif (bd>=23  and bm==9 )or bd<=22 and bm==10:
+        print("zodiac is Libra ")
+    elif (bd>=24 and bm==10 )or bd<=22 and bm==11:
+        print("zodiac is Scorpio ")
+    elif (bd>=22 and bm==11 )or bd<=21 and bm==12:
+        print("zodiac is Sagittarius ")
+    elif (bd>=22  and bm==12) or bd<=19 and bm==1:
+        print("zodiac is Aries ")
+else:
+        print("invalid date")
+
+    
+    
+    
+    
