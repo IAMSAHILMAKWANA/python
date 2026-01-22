@@ -105,6 +105,84 @@ elif ar==ta2 or ar==Cap10 or ar==ca4 or ar==sc8:
     print("not match")
 elif ar==Vi6 or ar==pi12 :
     print("BOTH HAVE good match")
+    
+elif leo==ar1 or leo==le5 or leo==sa9 or leo==ge3 or leo==li7 or leo==aqa11  :
+    print("both have grate match")
+elif leo==Vi6 or leo==Cap10 or leo==ca4 :
+    print("not match")
+elif leo==ta2 or leo==aqa11 or leo==ca4  or leo==sc8 or leo==pi12:
+    print("BOTH HAVE good match")
+    
+elif sa9==ar1 or sa9==le5 or sa9==sa9 or sa9==ge3 or sa9==li7 or sa9==aqa11  :
+    print("both have grate match")
+elif sa9==ta2 or sa9==Cap10 or sa9==Vi6:
+    print("not match")
+elif sa9==Vi6 or sa9==pi12 or sa9==ca4 or sa9==sc8:
+    print("BOTH HAVE good match")
+    
+elif ge==ar1 or ge==le5 or  ge==ge3 or ge==li7 or ge==aqa11  :
+    print("both have grate match")
+elif ge==ta2 or ge==Cap10  or ge==sc8 or ge==pi12:
+    print("not match")
+elif ge==Vi6 or ge==sa9 or ge==ca4 :
+    print("BOTH HAVE good match")
+    
+if li==le5 or li==sa9 or li==ge3 or li==li7 or li==aqa11  :
+    print("both have grate match")
+elif li==ta2 or li==Cap10 or li==ca4 or li==sc8 or li==Vi6:
+    print("not match")
+elif li==ar1 or   li==pi12 :
+    print("BOTH HAVE good match")
+    
+elif aqa==ar1 or aqa==le5 or aqa==sa9 or aqa==ge3 or aqa==li7 or aqa==aqa11  :
+    print("both have grate match")
+elif aqa==ta2 or aqa==Cap10 or aqa==ca4 or aqa==Vi6:
+    print("not match")
+elif aqa==Vi6 or aqa==pi12 or aqa==sc8:
+    print("BOTH HAVE good match")
+    
+elif ta==ta2 or ta==Vi6 or ta==ca4 or ta==Cap10 or ta==sc8 or ta==pi12  :
+    print("both have grate match")
+elif ta==ar1 or ta==sa9 or ta==ge3 or ta==aqa11:
+    print("not match")
+elif ta==le5 or ta==li7 :
+    print("BOTH HAVE good match")
+    
+elif Vi==ta2 or vi==Vi6 or vi==ca4 or vi==Cap10 or vi==sc8   :
+    print("both have grate match")
+elif vi==ar1 or vi==sa9 or vi==ge3  or vi==li7:
+    print("not match")
+elif vi==le5 or vi==aqa11 or vi==pi12 :
+    print("BOTH HAVE good match")
+    
+elif Cap==ta2 or Cap==Vi6 or Cap==ca4 or Cap==Cap10 or Cap==sc8 or Cap==pi12  :
+    print("both have grate match")
+elif Cap==ar1 or Cap==sa9 or Cap==ge3 or Cap==aqa11:
+    print("not match")
+elif Cap==le5 or Cap==li7 :
+    print("BOTHH HAVE good match")
+    
+elif ca==ta2 or ca==Vi6 or ca==ca4 or ca==Cap10 or ca==sc8 or ca==pi12  :
+    print("both have grate match")
+elif ca==ar1  or ca==ge3 or ca==aqa11 or ca==li7:
+    print("not match")
+elif ca==le5 or ca==sa9  :
+    print("BOTH HAVE good match")
+    
+elif sc==ta2 or sc==Vi6 or sc==ca4 or sc==Cap10 or sc==sc8 or sc==pi12  :
+    print("both have grate match")
+elif    sc==ge3 or sc==aqa11 or sc==li7 or sc==sa9:
+    print("not match")
+elif sc==le5 or sc==ar1  :
+    print("BOTH HAVE good match")
+    
+elif sc==ta2  or sc==ca4 or sc==Cap10 or sc==sc8 or sc==pi12  :
+    print("both have grate match")
+elif    sc==ge3 or sc==aqa11 or sc==li7 :
+    print("not match")
+elif sc==le5 or sc==ar1  or sc==sa9 or sc==Vi6 :
+    print("BOTH HAVE good match")
+    
 else:
      print=("INVALID MATCH")
 
