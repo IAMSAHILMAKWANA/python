@@ -1,0 +1,9 @@
+age1 = float(input("Enter first brother's age: "))
+age2 = float(input("Enter second brother's age: "))
+
+if age1 > age2:
+    print("First brother is elder.")
+elif age2 > age1:
+    print("Second brother is elder.")
+else:
+    print("Both brothers are of the same age.")
