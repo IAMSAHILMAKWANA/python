@@ -1,0 +1,9 @@
+#3) write a program to count words in given string 
+words=input("enter any string")
+lenth=1
+
+for count in words:
+    if count==' ':
+     lenth+=1
+print("string words is ",lenth)
+    
